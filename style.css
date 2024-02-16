@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Marcellus SC", serif;
+   
+}
+
+body{
+    background-color: #010726;
+}
+
+.container{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    
+}
+
+.logo h1{
+    color: #003CFF;
+    font-weight: 100;
+}
+
+.menu h2, .menu h3{
+    color: aliceblue;
+    display: inline-block;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 100;
+   
+}
+
+
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0B476E;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.texto h1{
+    color:#003CFF;
+    font-weight: 100;
+    font-size: 200px;
+    
+}
+
+.texto h5{
+    color:#ffffff;
+    font-weight: 100;
+    font-size: 20px;    
+}
+
+.texto img{
+    width: 230px;
+    height: 450px;
+} 
+
+.perfumes1 {
+    align-items: center;
+    justify-content: center;
+    display: flexbox;
+}
+
+.perfumes1 h1{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 20px;
+}
+
+.perfumes1 img {
+    width: 280px;
+    height: 380px;
+    padding: 15px;
+}
+
+.bannerfm img {
+
+    height: 418px;
+}
+
+.perfumes2 {
+    align-items: center;
+    justify-content: center;
+    display: flexbox;
+}
+
+.perfumes2 h1{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 20px;
+}
+
+.perfumes2 img {
+    width: 300px;
+    height: 400px;
+    padding: 6px;
+}
+
+.bannerms img {
+    height: 418px;
+}
